@@ -33,6 +33,10 @@ namespace JedDatTyp09
                     obsahuje = true;
                  
                 }
+                else
+                {
+                    MessageBox.Show("Posloupnost neobsahuje zadne sude cislo");
+                }
                 i++;
             }
             i = 0;
